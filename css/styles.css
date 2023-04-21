@@ -103,6 +103,22 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.ut-loader-overlay {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.black-block {
+  height: 100vh;
+  background: black;
+  width: 100%;
+}
+
+
+
+
+
 
 hr {
   margin: 1rem 0;
@@ -3725,8 +3741,14 @@ textarea.form-control-lg {
 .tab-content > .active {
   display: block;
 }
+.logo {
+  width: 100px !important;
+  height: auto;
+}
+
 
 .navbar {
+ 
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
@@ -3754,6 +3776,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
+
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
@@ -10943,14 +10966,7 @@ p {
   }
 }
 
-.masthead-subheading {
-  opacity: 0;
-  transition: opacity 0.5s ease-out;
-}
 
-.masthead-subheading.show {
-  opacity: 1;
-}
 header.masthead {
   
   padding-top: 10.5rem;
